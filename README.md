@@ -20,7 +20,7 @@ Clone the project and open it using your favourite browser (I recommend using Ch
 
 Here is a screenshot of how the website should look, so you can compare it with my project. They are supossed to resemble at least in a 90%.
 
-![Screenshot of the application](screenshot-application.png)
+![Screenshot of the application](assets/screenshot-application.png)
 
 
 ## Credits
