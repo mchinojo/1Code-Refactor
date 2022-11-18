@@ -10,11 +10,18 @@ body {
     color: #ffffff;
 }
 
+p {
+    font-size: 16px;
+}
+
+/* Header starts */
 header {
     padding: 20px;
     background-color: #2a607c;
 }
 
+
+/* Horiseon Title starts */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +31,9 @@ h1 .seo {
     color: #d9dcd6;
 }
 
+/* Horiseon Title ends */
+
+/* Navigation starts */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,12 +56,16 @@ nav a {
     margin-left: 25px;
 }
 
+/* Navigation ends */
+/* Header ends */
+
 .hero {
     width: 100%;
     height: auto;
     margin-bottom: 25px;
 }
 
+/* Main section starts */
 main {
     width: 75%;
     display: inline-block;
@@ -63,14 +77,34 @@ main h2 {
     font-size: 36px;
 }
 
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 article img {
     max-height: 200px;
 }
 
-p {
-    font-size: 16px;
+/* This is for articles with an image on the left */
+article.float-left img {
+    float: left;
+    margin-right: 25px;
 }
 
+/* This is for articles with an image on the right */
+article.float-right img {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Main section ends */
+
+/* Aside section starts */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -91,31 +125,15 @@ aside section {
     margin-bottom: 32px;
 }
 
-article.float-left img {
-    float: left;
-    margin-right: 25px;
-}
-
-article.float-right img {
-    float: right;
-    margin-left: 25px;
-}
-
 aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* Aside section ends */
 
+/* Footer section starts */
 footer {
     padding: 30px;
     clear: both;
@@ -127,3 +145,5 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+/* Footer section ends */
